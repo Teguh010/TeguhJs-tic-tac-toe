@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic-Tac-Toe Game written in Javascript </title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <h1 class="title" style="background-color:LightSeaGreen"><marquee direction="right">Teguh JS Tic-Tac-Toe  </marquee></h1>
+
+    <div class="game-panelku">
+
+        <div class="tic-tac-toe">
+            <div class="reset-score">
+            <table class="scoreboard">
+                <tr>
+                    <td> Player 1 </td>
+                    <td width="30"> &nbsp; </td>
+                    <td> Player 2 </td>
+                </tr>
+                <tr>
+                    <td class="score X">
+                        0
+                    </td>
+                    <td> &nbsp; </td>
+                    <td class="score O">
+                        0
+                    </td>
+                </tr>
+            </table>
+            </div>
+            
+            <select class="grid-options">
+                <option value="2"> 2 X 2 </option>
+                <option value="3" selected> 3 X 3 </option>
+                <option value="4"> 4 X 4 </option>
+                <option value="5"> 5 X 5 </option>
+                <option value="6"> 6 X 6 </option>
+                <option value="8"> 8 X 8 </option>
+                <option value="10"> 10 X 10 </option>
+                <option value="12"> 12 X 12 </option>
+                <option value="14"> 14 X 14 </option>
+                <option value="16"> 16 X 16 </option>
+                <option value="18"> 18 X 18 </option>
+                <option value="20"> 20 X 20 </option>
+            </select>
+
+            <div class="board"></div>
+            <div>
+                <button class="btn-reset"> Reset </button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="TicTacToe.js"></script>
+    <script>
+        TicTacToe('.game-panelku');
+    </script>
+</body>
+
+</html>
