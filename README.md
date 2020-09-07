@@ -2,7 +2,7 @@
 # Scalable Tic Tac Toe in Javascript
 
 # Play This Game 
-click this link to play this game 👉 https://teguh010.github.io/teguhjs-tic-tac-toe/
+click this link to play this game 👉 https://teguh010.github.io/TeguhJs-tic-tac-toe/
 
 ##  Overview
 
@@ -23,7 +23,7 @@ Display an **X** when the player **X** clicks on an empty square, and display an
 
 ### Goal
 
-to allow user chose type of game boards(3x3, 4x4, 5x5, 8x8, 10x0 and so on)
+to allow user chose type of game boards(3x3, 4x4, 5x5, 8x8, 10x10, 18x18 and so on)
 
 ##  Step 3
 
