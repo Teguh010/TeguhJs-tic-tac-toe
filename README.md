@@ -1,5 +1,5 @@
 
-# Scalable Tic Tac Toe in Javascript
+# Scalable Tic Tac Toe in Pure Javascript
 
 # Play This Game 
 click this link to play this game 👉 https://teguh010.github.io/TeguhJs-tic-tac-toe/
